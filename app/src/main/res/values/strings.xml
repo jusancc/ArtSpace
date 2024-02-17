@@ -3,4 +3,7 @@
     <string name="autor">Florentino Perez</string>
     <string name="boton1">Anterior</string>
     <string name="boton2">Siguiente</string>
+
+    <string name="texto2">Autor 2</string>
+    <string name="texto3">Autor 3</string>
 </resources>

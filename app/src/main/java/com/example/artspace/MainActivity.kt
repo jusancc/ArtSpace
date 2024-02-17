@@ -57,6 +57,12 @@ fun ArtSpaceImage(modifier: Modifier = Modifier) {
         R.drawable.logo
     )
 
+    val textResources = listOf(
+        R.string.autor,
+        R.string.texto2,
+        R.string.texto3
+    )
+
     Column(
         modifier = modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
@@ -74,7 +80,9 @@ fun ArtSpaceImage(modifier: Modifier = Modifier) {
 
         Text(text = stringResource(id = R.string.autor))
 
-        Spacer(modifier = Modifier.weight(1f))
+        Text(text = stringResource(id = textResources[currentImageIndex]))
+
+        Spacer(modifier = Modifier.padding(50.dp))
 
         Row(
             modifier = Modifier.fillMaxWidth(),
